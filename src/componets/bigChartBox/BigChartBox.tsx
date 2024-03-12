@@ -2,7 +2,6 @@ import "./bigChartBox.scss";
 import {
   ResponsiveContainer,
   AreaChart,
-  CartesianGrid,
   XAxis,
   YAxis,
   Tooltip,
@@ -72,7 +71,7 @@ const BigChartBox = () => {
               bottom: 0,
             }}
           >
-            <XAxis dataKey={data} />
+            <XAxis dataKey={"name"} />
             <YAxis />
             <CustomTooltip />
 
